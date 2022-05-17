@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(red, yellow);
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    background: black;
+    border: 3px solid white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    background: rgb(0, 0, 0);
+    font-size:2rem;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+header{
+    width: 900px;
+    background: url("../images/fondobad.jpeg");
+    border: 3px solid white;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+
+.head{
+    display: flex;
+    align-items: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 90%;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+
+nav ul{
+    margin-left: 150px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: solid 5px rgb(226, 69, 45);
+}
+
+nav ul li a:hover{
+    color: white;
+    background: black;
+    border: solid 5px white;
+}
+
+.clear{
+    clear: both;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 3px;
+    text-align: justify;
+}
+
+optgroup{
+    background: rgb(255, 242, 0);
+    color: rgb(227, 26, 26);
+    border: 3px solid red;
+}
+
+option{
+    text-align: justify;
+}
+
+#enviar{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+input{
+    font-size: 1.2rem;
+    border: 3px solid rgb(185, 26, 26);
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+select{
+    margin: 30px;
+    font-size: 1.5rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+}

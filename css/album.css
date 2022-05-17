@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/fondo.jpg");
+}
+
+h1{
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+header{
+    width: 1049px;
+    background-image: linear-gradient(red, yellow);
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+
+.head{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 90%;
+    align-items: center;
+}
+
+nav{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 90%;
+    align-items: center;
+    margin-left: 9rem;
+}
+
+nav ul{
+    margin-left: 150px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: black;
+}
+
+.text-init{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px;
+    text-align: justify;
+}
+
+
+.photo-init{
+    width: 60%;  
+    height: 400px;
+    margin-left: 14rem ;
+    border: 4px solid black;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin: 100px 25px 25px 25px;
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+}
+
+
+.text-right{
+    float: right;
+    width: 55%;
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+
+
+
+.img-left{
+    width: 40%;
+    height: 400px;
+    float: left;
+    border: solid 4px black;
+    margin-left: 10px;
+}
+
+
+.text-left{
+    float: left;
+    width: 55%;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+
+.img-right{
+    width: 40%;
+    height: 400px;
+    float: right;
+    border: 4px solid rgb(240, 240, 240);
+    margin-right: 10px;
+}
+
+.clear{
+    clear: both;
+}

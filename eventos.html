@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/eventstyle.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+
+    <header>
+    <h1>Gana tu boleta</h1>
+    <nav class="head">
+        <ul>
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="albumes.html" >Álbumes</a></li>
+            <li><a href="eventos.html" >Eventos</a></li>
+            <li><a href="premios.html">Premios</a></li>
+        </ul>
+    </nav>
+    <section class="formulario"> 
+    <form>
+        <br>
+        <label for="nombre">Nombre: *</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Ingrese su edad">
+        <label for="email">Email: *</label>
+        <input type="email" id="email" placeholder="Ingrese su email" required>
+        <label for="tel">Telefono: *</label>
+        <input type="tel" id="tel" placeholder="Ingrese N° telefonico" required maxlength="15">
+        
+        <h2>Fechas</h2>
+        <select>
+            <optgroup label="Colombia">
+                <optgroup label="Estadio Atanasio Girardot, Medellin"></optgroup>
+                <option value="Valor  1">Viernes, 18 noviembre 2022 20:00 </option>
+                <option value="Valor  2">Sábado, 19 noviembre 2022 19:00</option>
+                <optgroup label="Estadio El Campin, Bogota"></optgroup>
+                <option value="Valor  3">Domingo, 20 noviembre 2022 19:00</option>
+                <option value="Valor  4">Lunes, 21 noviembre 2022 20:00</option>
+            </optgroup>
+            <optgroup label="EEUU">
+                <optgroup label="Camping World Stadium, Orlando"></optgroup>
+                <option value="Valor  1">Viernes, 05 agosto 2022 19:00</option>
+                <option value="Valor  2">Sábado, 06 agosto 2022 20:00</option>
+                <optgroup label="Hard Rock Stadium, Miami,"></optgroup>
+                <option value="Valor  1">Viernes, 12 agosto 2022 19:00</option>
+                <option value="Valor  2">Sábado, 13 agosto 2022 19:00</option>
+                <optgroup label="Fenway Park, Boston"></optgroup>
+                <option value="Valor  1">Jueves, 18 agosto 2022 19:00</option>
+                <option value="Valor  2">Sábado, 20 agosto 2022 19:00</option>
+            </optgroup> 
+                
+        </select>
+        <input id="enviar" type="submit" value="Enviar">
+    </form>
+</header>
+</body>
+</html>
